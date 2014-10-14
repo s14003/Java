@@ -7,13 +7,13 @@ abstract class Ex {
 
 class Ex2_0 extends Ex{
 	void execute(){
-		double x;
-		double y;
-    double z;
+		int x;
+		int y;
+    int z;
 
-		x = 63.4;
-		y = 18.6;
-    z = 12.3;
+		x = 63;
+		y = 18;
+    z = 12;
 
 		System.out.println("xの値は" + x + "です。");
 		System.out.println("yの値は" + y + "です。");
