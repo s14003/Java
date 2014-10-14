@@ -10,12 +10,12 @@ class Ex1_0 extends Ex {
 
 class Ex1_2 extends Ex {
 	void execute(){
-		System.out.println("萱\n島\n志\n野");
+		System.out.println("萱\n島");
 	}
 }
 class Ex1_3 extends Ex {
 	void execute(){
-		System.out.println("\n萱\n島\n志\n野");
+		System.out.println("\n志\n野");
 	}
 }
 
