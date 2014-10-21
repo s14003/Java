@@ -5,6 +5,7 @@ abstract class Ex {
   abstract void execute();
 }
 
+
 class Ex2_0 extends Ex{
   void execute(){
     int x;
