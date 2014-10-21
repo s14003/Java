@@ -113,6 +113,19 @@ class Ex2_5 extends Ex{
   System.out.println("和" +  (x + y) + "平均" + (x + y)/2);
   }
 }
+class Ex2_6 extends Ex{
+  void execute(){
+  Scanner stdIn = new Scanner(System.in);
+
+  System.out.println("底辺の値:");
+  double x = stdIn.nextDouble();
+
+  System.out.println("高さの値:");
+  double y = stdIn.nextDouble();
+
+  System.out.println("三角形の面積は" + (x * y)/2 + "です。");
+  }
+}
 public class Ex2 {
   public static void main(String[] args){
     Ex a;
@@ -129,6 +142,8 @@ public class Ex2 {
     a = new Ex2_4();
     a.execute();
     a = new Ex2_5();
+    a.execute();
+    a = new Ex2_6();
     a.execute();
   }
 }
