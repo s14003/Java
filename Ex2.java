@@ -95,10 +95,7 @@ class Ex2_4 extends Ex{
     System.out.println("xの値:");
     int x = stdIn.nextInt();
 
-    System.out.println("yの値:");
-    int y = stdIn.nextInt();
-
-    System.out.println((x + 10) + (y + 10));
+    System.out.println((x + 10) + (x - 10));
   }
 }
 class Ex2_5 extends Ex{
