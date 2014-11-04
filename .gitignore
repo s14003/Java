@@ -1,2 +1,7 @@
 *.swp
 *.class
+*.jar
+*.*~
+LICENSE.txt
+/META-INF
+/org
