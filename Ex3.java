@@ -1,45 +1,49 @@
 class Ex3{
 
-	public String ex3_0(int n){
+  public String ex3_0(int n){
+    if(n>0){
+      return  "その値は正です";
+    }else{
+      return "その値は０か負です";
+    }
 
-		return "dummy";
 
-	}
+  }
 
-	public int ex3_1(int n){
-		
-		return -1;
+  public int ex3_1(int n){
+  
+      n = 10;
+      return ;
 
-	}
+  }
 
-	public String ex3_2(int a, int b){
+  public String ex3_2(int a, int b){
 
-		return "dummy";
-	}
+    return "dummy";
+  }
 
-	public String ex3_3(int a, int b){
+  public String ex3_3(int a, int b){
 
-		return "dummy";
+    return "dummy";
 
-	}
+  }
 
-	public String ex3_4(int a){
+  public String ex3_4(int a){
 
-		return "dummy";
+    return "dummy";
 
-	}
+  }
 
-	public String ex3_5(int a){
+  public String ex3_5(int a){
 
-		return "dummy";
-	}
-	
-	public String ex3_6(int a){
-		return "dummy";
-	}
+    return "dummy";
+  }
 
-	public String ex3_7(int a){
-		return "dummy";
-	}
+  public String ex3_6(int a){
+    return "dummy";
+  }
+
+  public String ex3_7(int a){
+    return "dummy";
+  }
 }
-
