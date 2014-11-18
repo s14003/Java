@@ -106,15 +106,63 @@ class Ex3{
     }
   }
 
-	public int ex3_11(int a, int b, int c){
-		return 1000;
-	}
+  public int ex3_11(int a, int b, int c){
+    if(a > b){
+      if(b > c ){
+        return c;
+      }else{
+        return b;
+      }
+    }else if(a > c){
+      return c;
+    }else{
+      return a;
+    }
 
-	public int ex3_12(int a, int b, int c){
-		return 1000;
-	}
+  }
 
-	public String ex3_13(int a){
-		return "dummy";
-	}
+
+  public int ex3_12(int a, int b, int c){
+    if(a > b){
+      if(b > c){
+        return b;
+      }else if(a > c){
+        return c;
+      }else{
+        return a;
+      }
+
+    }else if(c > b){
+      return b;
+    }else if(a > c){
+      return a;
+    }else{
+      return c;
+    }
+
+  }
+
+  public String ex3_13(int a){
+    if(a < 13 ){
+      if(a > 1){
+      if(a > 11){
+        return "冬";
+      }else if(a > 8){
+        return "秋";
+      }else if(a > 5){
+        return "夏";
+      }else if(a > 2){
+        return "春";
+      }else{
+        return "冬";
+      }
+
+      }else{
+      return "範囲(1～12)外の値です";
+      }
+
+      }else{
+      return "範囲(1～12)外の値です";
+    }
+  }
 }

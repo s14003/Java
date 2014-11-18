@@ -1,7 +1,8 @@
+import java.util.Arrays;
 class Ex4{
 
 	public int [] ex4_1(int [] a){
-		
+		Arrays.sort(a);
 		return a;
 
 	}
